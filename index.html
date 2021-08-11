@@ -12,11 +12,11 @@
     <div>
       <h1>Cadastro de animais</h1>
       <input v-model="text" placeholder="nome do animal?" @keyup.enter="onAdd" @keyup.esc="onClear">
-<select v-model="selected" placeholder="nome do animal?">
-  <option disabled value="">escolha a raça do animal</option>
+<select v-model="selected" placeholder="raça do pet">
   <option>lulu da pomerania</option>
   <option>Beagle</option>
   <option>Basset houng</option>
+      <option>labrador</option>
 </select>
              <button @click="onAdd">Adicionar</button>
 
